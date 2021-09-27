@@ -1,0 +1,12 @@
+div{
+  height: 75px;
+  background-color: blanchedalmond;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
