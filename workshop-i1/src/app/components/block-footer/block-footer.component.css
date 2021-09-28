@@ -1,5 +1,11 @@
-.foo_top_header_one .kilimanjaro_part>h5 {
-    color: #fff;
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blanchedalmond;
+    color: rgb(13, 4, 53);
+    text-align: center;
 }
 .section_padding_100_70 {
     padding-top: 200px;
@@ -11,27 +17,27 @@
 a, h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
-    ul {
-        padding:0;
-        margin:0;
-        list-style-type:none;
-        }
-       li {
-        margin-left:2px;
-        float:left; /*pour IE*/
-        }
-       ul li a {
-        display:block;
-        float:left;   
-        width:100px;
-        background-color:#6495ED;
-        color:black;
-        text-decoration:none;
-        text-align:center;
-        padding:5px;
-        border:2px solid;
-        /*pour avoir un effet "outset" avec IE :*/
-        border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ul {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    }
+li {
+    margin-left:2px;
+    float:left; /*pour IE*/
+    }
+ul li a {
+    display:block;                /* Transformation en block */
+    min-width: 150px;             /* Largeur minimale des liens */   
+            
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
         }
        ul li a:hover {
         background-color:#D3D3D3;
