@@ -50,17 +50,30 @@
  */
 const chat = {
     1: {
-        text: 'Hi! Welcome to Peekobot.',
+        text: 'Bonjour, comment puis-je vous aider?',
         options: [
             {
-                text: '👋',
+                text: 'Je cherche de l’information',
                 next: 2
-            }
+            },
+          {
+            text: 'J’ai subi une cyber attaque',
+            next: 4
+          }
         ]
     },
     2: {
-        text: 'Peekobot is a <em>really simple</em>, choice-driven chatbot framework made in <del>less than</del> just over 100 lines of vanilla JavaScript',
-        next: 3
+        text: 'Voici les sujets que je peux proposer.',
+      options: [
+        {
+          text: 'Hameçonnage (phishing en anglais).',
+          next: 2
+        },
+        {
+          text: 'Arnaque au faux support technique.',
+          next: 2
+        }
+      ]
     },
     3: {
         text: 'But you probably knew that anyway.',
@@ -72,7 +85,11 @@ const chat = {
             {
                 text: "<strong>Nope</strong>, this is news.",
                 next: 5
-            }
+            },
+          {
+            text: "<strong>Why not..</strong>, this is news.",
+            next: 5
+          }
         ]
     },
     4: {

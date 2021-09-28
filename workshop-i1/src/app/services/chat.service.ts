@@ -9,6 +9,6 @@ export class ChatService {
   constructor(private http: HttpClient) { }
 
   getAll(){
-    return this.http.get<any>(`api/events`);
+    return this.http.get<any>(`api/questions`);
   }
 }
