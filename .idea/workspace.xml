@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90f8d0f1-22a0-4a0c-bc17-ddd6eefcc4b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/workshop-i1/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop-i1/src/assets/css/peekobot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop-i1/src/assets/img/noun_chatbot_1585775.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop-i1/src/assets/js/conversation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop-i1/src/assets/js/peekobot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workshop-i1/src/assets/js/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/tsconfig.app.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yia2c9nK3veCwkHcq8rtmUGOuN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workshop-i1/src/assets/img" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/../PTE_APPLICATION_WEB/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workshop-i1/src/assets/img" />
+      <recent name="$PROJECT_DIR$/workshop-i1/src/assets/css" />
+      <recent name="$PROJECT_DIR$/workshop-i1/src/assets/js" />
+      <recent name="$PROJECT_DIR$/../API-WORKSHOP-I1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/workshop-i1/src/app/services" />
+      <recent name="$PROJECT_DIR$/workshop-i1/src/app/chat" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="peekobot.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../../peekobot-master/peekobot.js" working-dir="$PROJECT_DIR$/../../peekobot-master">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.peekobot.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90f8d0f1-22a0-4a0c-bc17-ddd6eefcc4b0" name="Default Changelist" comment="" />
+      <created>1632736656132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632736656132</updated>
+      <workItem from="1632736657458" duration="18301000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sql" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
