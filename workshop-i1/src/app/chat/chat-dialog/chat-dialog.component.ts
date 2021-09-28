@@ -11,7 +11,7 @@ export class ChatDialogComponent implements OnInit {
   constructor(private chatService: ChatService) { }
 
   ngOnInit(): void {
-    //this.getAll();
+    this.getAll();
   }
 
 //On récupére tous les événements de tous les utilisateurs
