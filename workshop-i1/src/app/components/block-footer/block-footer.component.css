@@ -1,0 +1,39 @@
+.foo_top_header_one .kilimanjaro_part>h5 {
+    color: #fff;
+}
+.section_padding_100_70 {
+    padding-top: 200px;
+    padding-bottom: 70px;
+}
+.social link h5 {
+    margin-bottom: 30px;
+}
+a, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+    ul {
+        padding:0;
+        margin:0;
+        list-style-type:none;
+        }
+       li {
+        margin-left:2px;
+        float:left; /*pour IE*/
+        }
+       ul li a {
+        display:block;
+        float:left;   
+        width:100px;
+        background-color:#6495ED;
+        color:black;
+        text-decoration:none;
+        text-align:center;
+        padding:5px;
+        border:2px solid;
+        /*pour avoir un effet "outset" avec IE :*/
+        border-color:#DCDCDC #696969 #696969 #DCDCDC;
+        }
+       ul li a:hover {
+        background-color:#D3D3D3;
+        border-color:#696969 #DCDCDC #DCDCDC #696969;
+        } 
