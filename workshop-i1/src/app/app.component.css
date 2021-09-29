@@ -20,7 +20,17 @@
   left: 600px;
 }
 
+app-chat-bot {
+  position: absolute;
+  left: 0;
+  top: 40%;
+}
+
 @keyframes UpAndDown {
-  from { transform: translateY(0); }
-  to   { transform: translateY(100px); }
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100px);
+  }
 }
