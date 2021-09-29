@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../API-WORKSHOP-I1/.idea/API-WORKSHOP-I1.iml" filepath="$PROJECT_DIR$/../API-WORKSHOP-I1/.idea/API-WORKSHOP-I1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../PTE_API/.idea/PTE_API.iml" filepath="$PROJECT_DIR$/../PTE_API/.idea/PTE_API.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../PTE_APPLICATION_WEB/.idea/PTE_APPLICATION_WEB.iml" filepath="$PROJECT_DIR$/../PTE_APPLICATION_WEB/.idea/PTE_APPLICATION_WEB.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../peekobot-master/.idea/peekobot-master.iml" filepath="$PROJECT_DIR$/../../peekobot-master/.idea/peekobot-master.iml" />
     </modules>
   </component>
