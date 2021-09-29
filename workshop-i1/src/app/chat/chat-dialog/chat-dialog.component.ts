@@ -19,7 +19,7 @@ export class ChatDialogComponent implements OnInit {
     this.chatService.getAll().subscribe(data => {
      //this.recEvents = data;
      // this.errorNotFound = false;
-      console.log("ladata")
+      console.log("ladata");
       console.log(data);
     }, error => {
      /* if (error.status == 404)

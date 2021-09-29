@@ -1,26 +1,6 @@
-:root {
-  --chatbot-color: #3D3E45;
-  --bg-color: #fdfdfd;
-  --green-color: #49a078;
-  --orange-color: #ffb34e;
-  --red-color: #f25f5c;
-}
-
-
 /*
   main
 */
-
-* {
-  margin: 0 auto;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-color: var(--bg-color);
-}
 
 .hidden {
   visibility: hidden;
@@ -34,11 +14,15 @@ body {
   right: 0;
 }
 
-.container {
-  position: absolute;
-  height: 500px;
-  width: 500px;
+.container-bot {
+  position: relative;
+  height: 300px;
+  width: 300px;
   animation: mover 2s infinite alternate;
+}
+
+.container-bot * {
+  box-sizing: unset;
 }
 
 
@@ -49,35 +33,36 @@ body {
 #chatbot-beam {
   position: relative;
   top: 75%;
-  left: -75%;
+  left: -76%;
   height: 50%;
   width: 250%;
   z-index: 2;
   border-radius: 50%;
-  background-color: var(--chatbot-color);
+  background-color: #3D3E45;
+  margin: auto;
 }
 
 #chatbot-beam-pulsar {
   position: relative;
-  top: 15px;
-  left: -5px;
-  height: 20px;
-  width: 20px;
+  top: 0px;
+  left: 0px;
+  height: 50%;
+  width: 50%;
   border-radius: 50%;
   z-index: 1;
   animation: beam-pulsar-appear 4s infinite ease-in-out;
 }
 
 .green {
-  background-color: var(--green-color);
+  background-color: #49a078;
 }
 
 .orange {
-  background-color: var(--orange-color);
+  background-color: #ffb34e;
 }
 
 .red {
-  background-color: var(--red-color);
+  background-color: #f25f5c;
 }
 
 
@@ -86,11 +71,12 @@ body {
 */
 
 #chatbot-antenna {
-  border-right: 15px solid transparent;
-  border-bottom: 40px solid var(--chatbot-color);
-  border-left: 15px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 20px solid #3D3E45;
+  border-left: 7px solid transparent;
   height: 10%;
   width: 2%;
+  margin: auto;
 }
 
 
@@ -101,7 +87,8 @@ body {
 #chatbot-head {
   width: 20%;
   height: 10%;
-  border: 10px solid var(--chatbot-color);
+  margin: auto;
+  border: 5px solid #3D3E45;
   border-radius: 5rem;
   display: flex;
   justify-content: center;
@@ -115,7 +102,7 @@ body {
 .chatbot-eye-green {
   width: 10%;
   height: 20%;
-  border: 4px solid var(--green-color);
+  border: 2px solid #49a078;
   border-radius: 50%;
   margin-left: 3%;
   margin-right: 3%;
@@ -124,7 +111,7 @@ body {
 .chatbot-eye-orange {
   width: 10%;
   height: 20%;
-  border: 4px solid var(--orange-color);
+  border: 2px solid #ffb34e;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -132,7 +119,7 @@ body {
 .chatbot-eye-red {
   width: 10%;
   height: 10%;
-  border: 4px solid var(--red-color);
+  border: 2px solid #f25f5c;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
   transform: rotate(45deg);
@@ -153,7 +140,7 @@ body {
 .chatbot-eye-writing {
   width: 10%;
   height: 20%;
-  background: var(--chatbot-color);
+  background: #3D3E45;
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 50%;
@@ -169,7 +156,7 @@ body {
 }
 
 
-/* 
+/*
   Body
 */
 
@@ -182,7 +169,7 @@ body {
 }
 
 
-/* 
+/*
   Chest
 */
 
@@ -190,7 +177,7 @@ body {
   display: flex;
   height: 90%;
   width: 33%;
-  border: 10px solid var(--chatbot-color);
+  border: 5px solid #3D3E45;
   border-radius: 50% 50% 50% 50% / 12% 12% 88% 88%;
   margin: 0;
 }
@@ -205,15 +192,15 @@ body {
   transform: rotate(45deg);
   height: 30%;
   width: 15%;
-  border-bottom: 7px solid var(--green-color);
-  border-right: 7px solid var(--green-color);
+  border-bottom: 7px solid #49a078;
+  border-right: 7px solid #49a078;
   margin: auto;
   margin-top: 20%;
 }
 
 .chatbot-mark-orange {
   margin: auto;
-  background: var(--orange-color);
+  background: #ffb34e;
   height: 30%;
   width: 5%;
   transform: rotate(0deg);
@@ -221,7 +208,7 @@ body {
 }
 
 .chatbot-mark-orange::after {
-  background: var(--orange-color);
+  background: #ffb34e;
   content: '';
   height: 20%;
   position: absolute;
@@ -231,7 +218,7 @@ body {
 
 .chatbot-mark-red {
   margin: auto;
-  background: var(--red-color);
+  background: #f25f5c;
   height: 30%;
   width: 6%;
   transform: rotate(45deg);
@@ -239,7 +226,7 @@ body {
 }
 
 .chatbot-mark-red::after {
-  background: var(--red-color);
+  background: #f25f5c;
   content: '';
   height: 100%;
   position: absolute;
@@ -252,7 +239,7 @@ body {
   width: 30%;
   height: 30%;
   top: 25%;
-  right: 2%;
+  left: 30%;
 }
 
 .chatbot-mark-writing::after {
@@ -261,8 +248,8 @@ body {
   border-radius: 50%;
   width: 100%;
   height: 100%;
-  border: 6px solid var(--chatbot-color);
-  border-color: var(--chatbot-color) transparent var(--chatbot-color) transparent;
+  border: 6px solid #3D3E45;
+  border-color: #3D3E45 transparent #3D3E45 transparent;
   animation: loading 2.4s linear infinite;
 }
 
@@ -275,7 +262,7 @@ body {
   margin-left: -1%;
   margin-right: -1%;
   margin-top: 5%;
-  border: 10px solid var(--chatbot-color);
+  border: 5px solid #3D3E45;
   height: 60%;
   width: 5%;
   transform: rotate(180deg);
@@ -291,7 +278,7 @@ body {
   margin-left: -10%;
   margin-right: -10%;
   margin-top: -10%;
-  border: 10px solid var(--chatbot-color);
+  border: 5px solid #3D3E45;
   height: 40%;
   width: 20%;
   transform: rotate(120deg);
@@ -303,7 +290,7 @@ body {
   margin-left: -1%;
   margin-right: -1%;
   margin-top: 5%;
-  border: 10px solid var(--chatbot-color);
+  border: 5px solid #3D3E45;
   height: 60%;
   width: 5%;
   border-top: none;
@@ -315,7 +302,7 @@ body {
   margin-left: -10%;
   margin-right: -10%;
   margin-top: -10%;
-  border: 10px solid var(--chatbot-color);
+  border: 5px solid #3D3E45;
   height: 40%;
   width: 20%;
   transform: rotate(120deg);
@@ -330,8 +317,8 @@ body {
 .chatbot-arm-red {
   margin-left: -9%;
   margin-right: -9%;
-  margin-top: 50px;
-  border: 10px solid var(--chatbot-color);
+  margin-top: 10%;
+  border: 5px solid #3D3E45;
   height: 50%;
   width: 17%;
   transform: rotate(140deg);
@@ -350,15 +337,18 @@ body {
 
 #chatbot-levitate {
   height: 50px;
+  box-sizing: border-box;
+  margin: auto;
 }
 
 .chatbot-levi-round {
   height: 33%;
   width: 10%;
-  border: 5px solid var(--chatbot-color);
+  border: 5px solid #3D3E45;
   border-radius: 50%;
   animation: shrink-down 4.5s infinite ease-in-out;
   visibility: hidden;
+  margin: auto;
 }
 
 .chatbot-levi-round:nth-child(1) {
@@ -367,12 +357,12 @@ body {
 }
 
 .chatbot-levi-round:nth-child(2) {
-  margin-top: -5%;
+  margin-top: -9%;
   animation-delay: 1.5s;
 }
 
 .chatbot-levi-round:nth-child(3) {
-  margin-top: -5%;
+  margin-top: -9%;
   animation-delay: 3s;
 }
 
@@ -402,16 +392,16 @@ body {
   55% {
     visibility: visible;
     top: 5px;
-    left: -5px;
-    height: 20px;
-    width: 20px;
+    left: -6px;
+    height: 50%;
+    width: 250%;
     opacity: 1
   }
   65% {
-    top: 5px;
-    left: -15px;
-    height: 40px;
-    width: 40px;
+    top: 0px;
+    left: -12px;
+    height: 100%;
+    width: 500%;
     opacity: 0;
     visibility: visible;
   }
@@ -422,16 +412,16 @@ body {
   75% {
     visibility: visible;
     top: 5px;
-    left: -5px;
-    height: 20px;
-    width: 20px;
+    left: -6px;
+    height: 50%;
+    width: 250%;
     opacity: 1
   }
   85% {
-    top: 5px;
-    left: -15px;
-    height: 40px;
-    width: 40px;
+    top: 0px;
+    left: -12px;
+    height: 100%;
+    width: 500%;
     opacity: 0;
     visibility: visible;
   }
@@ -487,13 +477,13 @@ button {
 }
 
 button.vert {
-  background: var(--green-color);
+  background: #49a078;
 }
 
 button.orange {
-  background: var(--orange-color);
+  background: #ffb34e;
 }
 
 button.rouge {
-  background: var(--red-color);
+  background: #f25f5c;
 }
