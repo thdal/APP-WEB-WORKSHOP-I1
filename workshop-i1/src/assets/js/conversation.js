@@ -53,26 +53,30 @@ const chat = {
         text: 'Bonjour, comment puis-je vous aider?',
         options: [
             {
-                text: 'Je cherche de l’information',
+                text: 'j’ai une question sur la cybersécurité.',
                 next: 2
             },
           {
             text: 'J’ai subi une cyber attaque',
-            next: 4
+            next:1000
           }
         ]
     },
     2: {
-        text: 'Voici les sujets que je peux proposer.',
+        text: 'Quels sujets vous interessent?',
       options: [
         {
-          text: 'Hameçonnage (phishing en anglais).',
+          text: 'les types d’attaques.',
           next: 2
         },
         {
-          text: 'Arnaque au faux support technique.',
-          next: 2
-        }
+          text: 'La prévention.',
+          next: 3
+        },
+        {
+          text: 'Arnaque au chantage à l’ordinateur.',
+          next: 4
+        },
       ]
     },
     3: {
