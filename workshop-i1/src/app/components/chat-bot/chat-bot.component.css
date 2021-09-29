@@ -53,15 +53,15 @@
   animation: beam-pulsar-appear 4s infinite ease-in-out;
 }
 
-.green {
+.chatbot-beam-green {
   background-color: #49a078;
 }
 
-.orange {
+.chatbot-beam-orange {
   background-color: #ffb34e;
 }
 
-.red {
+.chatbot-beam-red {
   background-color: #f25f5c;
 }
 
@@ -383,11 +383,11 @@
 @keyframes beam-pulsar-appear {
   0% {
     visibility: hidden;
-    top: 15px;
+    top: 5px;
   }
   50% {
     visibility: hidden;
-    top: 15px;
+    top: 5px;
   }
   55% {
     visibility: visible;
