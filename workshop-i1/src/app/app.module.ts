@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { ChatDialogComponent } from './chat/chat-dialog/chat-dialog.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { InterceptorService } from '../app/services/interceptor.service';
-import { BlockChatBotComponent } from './components/block-chat-bot/block-chat-bot.component';
 import { BlockHeaderComponent } from './components/block-header/block-header.component';
 import { BlockFooterComponent } from './components/block-footer/block-footer.component';
 import { BlockBodyComponent } from './components/block-body/block-body.component';
@@ -14,7 +13,6 @@ import { BlockBodyComponent } from './components/block-body/block-body.component
   declarations: [
     AppComponent,
     ChatDialogComponent,
-    BlockChatBotComponent,
     BlockHeaderComponent,
     BlockFooterComponent,
     BlockBodyComponent

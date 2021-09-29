@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f8d0f1-22a0-4a0c-bc17-ddd6eefcc4b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/block-footer/block-footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/components/block-footer/block-footer.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/block-footer/block-footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/components/block-footer/block-footer.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/block-header/block-header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/components/block-header/block-header.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/services/chat.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/services/chat.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop-i1/src/assets/js/conversation.js" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/assets/js/conversation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/block-body/block-body.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/components/block-body/block-body.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/block-chat-bot/block-chat-bot.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/block-chat-bot/block-chat-bot.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/block-chat-bot/block-chat-bot.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/block-chat-bot/block-chat-bot.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/assets/css/peekobot.css" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/assets/css/peekobot.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632736656132</updated>
       <workItem from="1632736657458" duration="20154000" />
-      <workItem from="1632896651440" duration="432000" />
+      <workItem from="1632896651440" duration="1182000" />
     </task>
     <servers />
   </component>

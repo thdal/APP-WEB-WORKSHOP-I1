@@ -16,7 +16,7 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
-#peekobot-inner::-webkit-scrollbar { 
+#peekobot-inner::-webkit-scrollbar {
     display: none;  /* Chrome Safari */
 }
 
