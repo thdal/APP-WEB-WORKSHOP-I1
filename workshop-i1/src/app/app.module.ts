@@ -8,6 +8,7 @@ import { InterceptorService } from '../app/services/interceptor.service';
 import { BlockHeaderComponent } from './components/block-header/block-header.component';
 import { BlockFooterComponent } from './components/block-footer/block-footer.component';
 import { BlockBodyComponent } from './components/block-body/block-body.component';
+import { ChatBotComponent } from './components/chat-bot/chat-bot.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BlockBodyComponent } from './components/block-body/block-body.component
     ChatDialogComponent,
     BlockHeaderComponent,
     BlockFooterComponent,
-    BlockBodyComponent
+    BlockBodyComponent,
+    ChatBotComponent
   ],
   imports: [
     BrowserModule,
