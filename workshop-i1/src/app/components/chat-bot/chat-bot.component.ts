@@ -6,72 +6,82 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./chat-bot.component.css']
 })
 export class ChatBotComponent implements OnInit {
+  public green: any;
+  public orange: any;
+  public red: any;
+  public hello: any;
+  public writing: any;
+  public eyes: any;
+  public arms: any;
+  public mark: any;
+  public beam: any;
 
   constructor() { }
 
-  const green = document.querySelector('.vert');
-  const orange = document.querySelector('.orange');
-  const red = document.querySelector('.rouge');
-  const hello = document.querySelector('.bonjour');
-  const writing = document.querySelector('.ecrire');
-  const eyes = document.querySelectorAll('.chatbot-eye-green')
-  const arms = document.querySelectorAll('.chatbot-arm-hello')
-  const mark = document.querySelector('.chatbot-mark-green')
-  const beam = document.querySelector('#chatbot-beam-pulsar')
-  
-  green.onclick = function(event) {
-    eyes.forEach(eye => {
-      eye.className = "chatbot-eye-green centered"
-    })
-    arms.forEach(arm => {
-      arm.className = 'chatbot-arm-green'
-    })
-    mark.className = 'chatbot-mark-green'
-    beam.className = 'green'
-  }
-  
-  orange.onclick = function(event) {
-    eyes.forEach(eye => {
-      eye.className = "chatbot-eye-orange centered"
-    })
-    arms.forEach(arm => {
-      arm.className = 'chatbot-arm-orange'
-    })
-    mark.className = 'chatbot-mark-orange'
-    beam.className = 'orange'
-  }
-  
-  red.onclick = function(event) {
-    eyes.forEach(eye => {
-      eye.className = "chatbot-eye-red centered"
-    })
-    arms.forEach(arm => {
-      arm.className = 'chatbot-arm-red'
-    })
-    mark.className = 'chatbot-mark-red'
-    beam.className = 'red'
-  }
-  
-  hello.onclick = function(event) {
-    eyes.forEach(eye => {
-      eye.className = "chatbot-eye-green centered"
-    })
-    arms.forEach(arm => {
-      arm.className = 'chatbot-arm-hello'
-    })
-    mark.className = 'chatbot-mark-green'
-    beam.className = 'green'
-  }
-  
-  writing.onclick = function(event) {
-    eyes.forEach(eye => {
-      eye.className = "chatbot-eye-writing centered"
-    })
-    mark.className = 'chatbot-mark-writing'
-  }
-  
-
   ngOnInit(): void {
+    this.green = document.querySelector('.vert');
+    this.orange = document.querySelector('.orange');
+    this.red = document.querySelector('.rouge');
+    this.hello = document.querySelector('.bonjour');
+    this.writing = document.querySelector('.ecrire');
+    this.eyes = document.querySelectorAll('.chatbot-eye-green');
+    this.arms = document.querySelectorAll('.chatbot-arm-hello');
+    this.mark = document.querySelector('.chatbot-mark-green');
+    this.beam = document.querySelector('#chatbot-beam-pulsar');
   }
+
+  greenEye() {
+    this.eyes.forEach(eye => {
+      eye.className = 'chatbot-eye-green centered';
+    });
+    this.arms.forEach(arm => {
+      arm.className = 'chatbot-arm-green';
+    });
+    this.mark.className = 'chatbot-mark-green';
+    this.beam.className = 'green';
+  }
+
+  orangeEye() {
+    this.eyes.forEach(eye => {
+      eye.className = 'chatbot-eye-orange centered';
+    });
+    this.arms.forEach(arm => {
+      arm.className = 'chatbot-arm-orange';
+    });
+    this.mark.className = 'chatbot-mark-orange';
+    this.beam.className = 'orange';
+  }
+
+  redEye() {
+    this.eyes.forEach(eye => {
+      eye.className = 'chatbot-eye-red centered';
+    });
+    this.arms.forEach(arm => {
+      arm.className = 'chatbot-arm-red';
+    });
+    this.mark.className = 'chatbot-mark-red';
+    this.beam.className = 'red';
+  }
+
+  sayHello() {
+    this.eyes.forEach(eye => {
+      eye.className = 'chatbot-eye-green centered';
+    });
+    this.arms.forEach(arm => {
+      arm.className = 'chatbot-arm-hello';
+    });
+    this.mark.className = 'chatbot-mark-green';
+    this.beam.className = 'green';
+  }
+
+  write() {
+    this.eyes.forEach(eye => {
+      eye.className = 'chatbot-eye-writing centered';
+    });
+    this.mark.className = 'chatbot-mark-writing';
+  }
+
+
+
 
 }

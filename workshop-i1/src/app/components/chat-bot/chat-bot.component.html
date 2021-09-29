@@ -1,4 +1,4 @@
-<div class="container centered" id="chatbot">
+<div class="container-bot centered" id="chatbot">
   <div id="chatbot-antenna">
     <div id="chatbot-beam"></div>
     <div id="chatbot-beam-pulsar" class="green"></div>
@@ -21,8 +21,8 @@
     <div class="chatbot-levi-round"></div>
   </div>
 </div>
-<button class="vert">Vert</button>
-<button class="orange">Orange</button>
-<button class="rouge">Rouge</button>
-<button class="bonjour">Bonjour</button>
-<button class="ecrire">Ecrire</button>
+<button class="vert" (click)="greenEye()">Vert</button>
+<button class="orange" (click)="orangeEye()">Orange</button>
+<button class="rouge" (click)="redEye()">Rouge</button>
+<button class="bonjour" (click)="sayHello()">Bonjour</button>
+<button class="ecrire" (click)="write()">Ecrire</button>
