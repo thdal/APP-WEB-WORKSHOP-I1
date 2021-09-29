@@ -1,5 +1,6 @@
 div{
   height: 150px;
+  width: 100%;
   background-color: blanchedalmond;
   justify-content: center;
   display: flex;
