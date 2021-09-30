@@ -9,6 +9,8 @@ import { BlockHeaderComponent } from './components/block-header/block-header.com
 import { BlockFooterComponent } from './components/block-footer/block-footer.component';
 import { BlockBodyComponent } from './components/block-body/block-body.component';
 import { ChatBotComponent } from './components/chat-bot/chat-bot.component';
+import { MenuTopComponent } from './components/menu/menu-top/menu-top.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { ChatBotComponent } from './components/chat-bot/chat-bot.component';
     BlockHeaderComponent,
     BlockFooterComponent,
     BlockBodyComponent,
-    ChatBotComponent
+    ChatBotComponent,
+    MenuTopComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [{ provide: HTTP_INTERCEPTORS, useClass: InterceptorService, multi: true}],
   bootstrap: [AppComponent]

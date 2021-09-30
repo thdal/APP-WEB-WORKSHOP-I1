@@ -33,7 +33,9 @@ export class ChatBotComponent implements OnInit {
       this.arms = document.querySelectorAll('.chatbot-arm');
       this.mark = document.querySelector('.chatbot-mark');
       this.beam = document.querySelector('#chatbot-beam-pulsar');
+      // @ts-ignore
       if (event[0].target.className) {
+        // @ts-ignore
         switch (event[0].target.className) {
           case 'green':
             this.eyes.forEach(eye => {
@@ -56,7 +58,7 @@ export class ChatBotComponent implements OnInit {
             this.mark.className = 'chatbot-mark chatbot-mark-orange';
             this.beam.className = 'chatbot-beam-orange';
             break;
-        
+
             case 'red':
               this.eyes.forEach(eye => {
               eye.className = 'chatbot-eye chatbot-eye-red centered';
@@ -67,7 +69,7 @@ export class ChatBotComponent implements OnInit {
             this.mark.className = 'chatbot-mark chatbot-mark-red';
             this.beam.className = 'chatbot-beam-red';
             break;
-        
+
             case 'hello':
               this.eyes.forEach(eye => {
               eye.className = 'chatbot-eye chatbot-eye-green centered';
@@ -78,7 +80,7 @@ export class ChatBotComponent implements OnInit {
             this.mark.className = 'chatbot-mark chatbot-mark-green';
             this.beam.className = 'chatbot-beam-green';
             break;
-        
+
             case 'writing':
               this.eyes.forEach(eye => {
               eye.className = 'chatbot-eye chatbot-eye-writing centered';
@@ -89,9 +91,9 @@ export class ChatBotComponent implements OnInit {
         }
     });
     this.observer.observe(this.mood, {
-      attributes: true, 
+      attributes: true,
       attributeFilter: ['class'],
-      childList: false, 
+      childList: false,
       characterData: false
     })
   }

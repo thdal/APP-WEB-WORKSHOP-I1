@@ -61,7 +61,7 @@ header {
 }
 
 main {
-  width: 100%;
+  width: 45%;
   height: 80vh;
 }
 
@@ -85,7 +85,14 @@ h2, h3, h4 {
 @media (min-width: 768px) {
 
   body {
+   /* display: flex;*/
+  }
+
+  .body-I1{
     display: flex;
+    padding: 3rem 1rem;
+    font-family: sans-serif;
+    color: var(--brand-black);
   }
 
   header {

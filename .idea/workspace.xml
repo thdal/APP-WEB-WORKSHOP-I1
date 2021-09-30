@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f8d0f1-22a0-4a0c-bc17-ddd6eefcc4b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/workshop-i1/src/assets/img/bot.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop-i1/src/assets/js/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workshop-i1/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/menu/menu-top/menu-top.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/components/menu/menu-top/menu-top.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workshop-i1/src/app/components/menu/menu-top/menu-top.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/workshop-i1/src/app/components/menu/menu-top/menu-top.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1632736656132</updated>
       <workItem from="1632736657458" duration="20154000" />
-      <workItem from="1632896651440" duration="3976000" />
+      <workItem from="1632896651440" duration="10465000" />
+      <workItem from="1632991082282" duration="2130000" />
     </task>
     <servers />
   </component>
