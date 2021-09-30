@@ -92,7 +92,8 @@
             ],
             "scripts": [
               "src/assets/js/conversation.js",
-              "src/assets/js/peekobot.js"
+              "src/assets/js/peekobot.js",
+              "node_modules/jquery/dist/jquery.min.js"
             ]
           }
         },
