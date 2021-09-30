@@ -53,7 +53,7 @@ const chat = {
     text: 'Bonjour, comment puis-je vous aider?',
     mood: 'hello',
     options: [{
-        text: 'j’ai une question sur la cybersécurité.',
+        text: 'J’ai une question sur la cybersécurité.',
         next: 2
 
       },
@@ -67,7 +67,7 @@ const chat = {
     text: 'Quels sujets vous interessent?',
     mood: 'green',
     options: [{
-        text: 'les types d’attaques.',
+        text: 'Les types d’attaques.',
         next: 4
       },
       {
