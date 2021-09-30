@@ -52,6 +52,7 @@ const chat = {
   1: {
     text: 'Bonjour, comment puis-je vous aider?',
     mood: 'hello',
+    describe: 'Bienvenue sur Botty, vous retrouverez toutes les informations nécessaires afin de vous mettre à jour sur la cybersécurité. N’hésitez pas à me solliciter si vous avez besoin d’aide.',
     options: [{
         text: 'j’ai une question sur la cybersécurité.',
         next: 2
@@ -78,6 +79,7 @@ const chat = {
   },
   3: {
     text: 'Avez-vous besoin d’un diagnostique ou d’une assistance en ligne?',
+    describe: 'Vous pensez être victime d\'un acte de cybermalveillance ? Nous pouvons vous rediriger vers un site qui va vous permettre de réaliser le diagnostic de votre problème et d\'appliquer des conseils adaptés pour y remédier.',
     mood: 'red',
     options: [{
         text: 'Oui.',
@@ -91,6 +93,7 @@ const chat = {
   },
   4: {
     text: 'Quels types d’attaques vous interessent?',
+    describe: 'Une cyberattaque est un acte malveillant envers un dispositif informatique via un réseau cybernétique. Une cyberattaque peut émaner de personnes isolées',
     mood: 'green',
     options: [{
         text: 'Les cyberattaques.',
@@ -104,20 +107,27 @@ const chat = {
   },
   5: {
     text: 'Quelles parties de la prévention?',
+    describe: 'le nombre d\'attaques aux rançongiciels a explosé. Dans l\'Hexagone, il a été multiplié par trois ou quatre rien qu\'en 2020.',
+
     mood: 'green',
     options: [{
         text: 'Généralitées.',
         next: 10
       },
       {
-        text: 'Autres',
-        next: 11
+        text: 'Violation de données',
+        next: 21
+      },
+      {
+        text: 'Faille de sécurité.',
+        next: 22
       }
     ]
   },
   6: {
     text: 'Voici le lien pour un diagnostique',
     mood: 'green',
+    describe: 'Si vous le souhaitez, vous pouvez être mis en relation avec des professionnels de proximité référencés par Cybermalveillance.gouv.fr et susceptibles de pouvoir vous aider dans la résolution de votre problème.',
     options: [{
       text: 'diagnostique',
       url: 'https://www.cybermalveillance.gouv.fr/diagnostic/11213c45-e17d-4b49-9867-333a2bddf5b9',
@@ -126,6 +136,7 @@ const chat = {
   },
   7: {
     text: 'Besoin d’autre chose ?',
+    describe: 'vous retrouverez toutes les informations nécessaires afin de vous mettre à jour sur la cybersécurité. N’hésitez pas à me solliciter si vous avez besoin d’aide.',
     mood: 'green',
     options: [{
         text: 'Oui.',
@@ -175,18 +186,6 @@ const chat = {
       {
         text: 'Alerte de cybersécurité.',
         next: 20
-      }
-    ]
-  },
-  11: {
-    text: 'Quel genre de prévention vous interesse?',
-    options: [{
-        text: 'Violation de données',
-        next: 21
-      },
-      {
-        text: 'Faille de sécurité.',
-        next: 22
       }
     ]
   },
@@ -255,6 +254,7 @@ const chat = {
   },
   19: {
     text: 'Voici un lien pour avoir des notions sur les mesures préventives',
+    describe: 'La principale source de vulnérabilités lors de l\'utilisation d\'un outil informatique est bien souvent l\'utilisateur. C\'est pourquoi il est important que chacun prenne le temps de se renseigner sur les précautions essentielles.',
     mood: 'green',
     options: [{
       text: 'j’y vais!',
@@ -264,15 +264,17 @@ const chat = {
   },
   20: {
     text: 'Voici un lien pour les alertes de cybersécurité',
+    describe: 'Les mises à jour sont l\'un des éléments les plus important lors du maintient d\'équipements informatiques. En effet elles ont pour rôle de réparer les failles de sécurités découvertes au quotidien.',
     mood: 'green',
     options: [{
       text: 'j’y vais!',
-      url: 'https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/10-mesures-essentielles-assurer-securite-numerique',
+      url: 'https://www.cybermalveillance.gouv.fr/diagnostic/50018a26-6030-43e6-9291-ee3fda11d357',
       next: 12
     }]
   },
   21: {
     text: 'Voici un lien pour les violation de données personnelles',
+    describe:'Une donnée personnelle désigne une information susceptible de permettre d’identifier directement ou indirectement une personne. C\'est pourquoi il est très important de rester prudent lors de l\'utilisation de ces dernières.',
     mood: 'green',
     options: [{
       text: 'j’y vais!',
@@ -282,6 +284,7 @@ const chat = {
   },
   22: {
     text: 'Voici un lien pour les failles de sécurité.',
+    describe: 'Les mises à jour sont l\'un des éléments les plus important lors du maintient d\'équipements informatiques. En effet elles ont pour rôle de réparer les failles de sécurités découvertes au quotidien.',
     mood: 'green',
     options: [{
       text: 'j’y vais!',
