@@ -4,6 +4,7 @@ const bot = function() {
   const container = document.getElementById('peekobot-container');
   const inner = document.getElementById('peekobot-inner');
   const chatbotMood = document.getElementById('peekobot-mood');
+  const textBox = document.getElementById('dynamic-text');
   let restartButton = null;
 
   const sleep = function(ms) {
@@ -32,6 +33,10 @@ const bot = function() {
 
     if (step.mood) {
       chatbotMood.className = step.mood;
+    }
+
+    if (step.describe) {
+      textBox.innerHTML = step.describe;
     }
 
     if (step.options) {

@@ -22,8 +22,8 @@
 
 app-chat-bot {
   position: absolute;
-  left: 300px;
-  top: 40%;
+  left: 35%;
+  top: 55%;
 }
 
 @keyframes UpAndDown {
