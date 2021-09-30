@@ -59,7 +59,7 @@ const chat = {
 
       },
       {
-        text: 'J’ai subi une cyber attaque',
+        text: 'J’ai subi une cyber attaque.',
         next: 3
       }
     ]
@@ -115,7 +115,7 @@ const chat = {
         next: 10
       },
       {
-        text: 'Violation de données',
+        text: 'Violation de données.',
         next: 21
       },
       {
@@ -125,11 +125,11 @@ const chat = {
     ]
   },
   6: {
-    text: 'Voici le lien pour un diagnostique',
+    text: 'Voici le lien pour un diagnostique.',
     mood: 'green',
     describe: 'Si vous le souhaitez, vous pouvez être mis en relation avec des professionnels de proximité référencés par Cybermalveillance.gouv.fr et susceptibles de pouvoir vous aider dans la résolution de votre problème.',
     options: [{
-      text: 'diagnostique',
+      text: 'Diagnostique.',
       url: 'https://www.cybermalveillance.gouv.fr/diagnostic/11213c45-e17d-4b49-9867-333a2bddf5b9',
       next: 7
     }]
@@ -221,7 +221,7 @@ const chat = {
     }]
   },
   15: {
-    text: 'Voici un lien pour les Rançongiciel ',
+    text: 'Voici un lien pour les Rançongiciel.',
     mood: 'green',
     describe:'Un rançongiciel est un logiciel malveillant qui bloque l’accès à l’appareil ou à des fichiers en les chiffrant et qui réclame à la victime le paiement d’une rançon pour en obtenir de nouveau l’accès.',
     options: [{
@@ -232,7 +232,7 @@ const chat = {
 
   },
   16: {
-    text: 'Voici un lien pour l’hameçonnage',
+    text: 'Voici un lien pour l’hameçonnage.',
     mood: 'green',
     describe:'L’hameçonnage est une technique frauduleuse destinée à leurrer l’internaute pour l’inciter à communiquer des données personnelles (comptes d’accès, mots de passe…) et/ou bancaires en se faisant passer pour un tiers de confiance.',
     options: [{
@@ -242,7 +242,7 @@ const chat = {
     }]
   },
   17: {
-    text: 'Voici un lien pour l’arnaque au chantage',
+    text: 'Voici un lien pour l’arnaque au chantage.',
     mood: 'green',
     describe:'L’arnaque au chantage à l’ordinateur ou à la webcam prétendus piratés prend généralement la forme d’un message reçu (mail) de la part d’un inconnu qui se présente comme un pirate informatique (« hacker »). Il veut soutirer de l’argent la victime en faisant du chantage',
     options: [{
@@ -262,7 +262,7 @@ const chat = {
     }]
   },
   19: {
-    text: 'Voici un lien pour avoir des notions sur les mesures préventives',
+    text: 'Voici un lien pour avoir des notions sur les mesures préventives.',
     describe: 'La principale source de vulnérabilités lors de l\'utilisation d\'un outil informatique est bien souvent l\'utilisateur. C\'est pourquoi il est important que chacun prenne le temps de se renseigner sur les précautions essentielles.',
     mood: 'green',
     options: [{
@@ -272,7 +272,7 @@ const chat = {
     }]
   },
   20: {
-    text: 'Voici un lien pour les alertes de cybersécurité',
+    text: 'Voici un lien pour les alertes de cybersécurité.',
     describe: 'Les mises à jour sont l\'un des éléments les plus important lors du maintient d\'équipements informatiques. En effet elles ont pour rôle de réparer les failles de sécurités découvertes au quotidien.',
     mood: 'green',
     options: [{
@@ -282,7 +282,7 @@ const chat = {
     }]
   },
   21: {
-    text: 'Voici un lien pour les violation de données personnelles',
+    text: 'Voici un lien pour les violation de données personnelles.',
     describe:'Une donnée personnelle désigne une information susceptible de permettre d’identifier directement ou indirectement une personne. C\'est pourquoi il est très important de rester prudent lors de l\'utilisation de ces dernières.',
     mood: 'green',
     options: [{
