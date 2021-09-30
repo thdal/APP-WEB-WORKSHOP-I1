@@ -27,12 +27,12 @@ nav .navbar-nav li .nav-admin-link-gl{
 .dropdown-menu>a{color:black; }
 
 .active-gl{
-  background-color: rgba(202, 229, 255, 0.46);
+  background-color: rgba(202, 229, 255, 0.4);
   border-radius: 1px;
 }
 
 .active-mobile-gl{
-  background-color: rgba(202, 229, 255, 0.46);
+  background-color: rgba(202, 229, 255, 0.4);
   border-radius: 1px;
   width: 100%;
   text-align: center;

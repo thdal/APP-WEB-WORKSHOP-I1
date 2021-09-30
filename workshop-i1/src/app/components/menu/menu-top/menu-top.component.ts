@@ -19,16 +19,21 @@ export class MenuTopComponent implements OnInit {
   ngOnInit(): void {
     //Ici on gère manuellement le clique sur un bouton du menu top pour l'affichage du background-color
     //Récupére le pathname de la route actuelle sans paramètre ex: eventsList/1 -> eventsList
-    let url = (window.location.hash).split('/')[1];
+    //let url = (window.location.hash).split('/')[1];
+    let url = window.location.pathname ;
     console.log("danslurl");
     console.log(url);
     console.log(window.location.pathname);
+    $(this).closest('li').addClass('active-gl');
+
     //Cherche tous les id du template qui match avec le pathname
     $('li a').each(function() {
       if ($(this).attr('id') === url) {
         console.log("coucouici");
         //Ajoute la classe active-gl à id===pathname (donc on fait matcher nos id dans le template)
         //On a une classe spécifique pour les mobiles
+        $(this).closest('li').addClass('active-gl');
+
         if(!(window.screen.width <= 480)){
           $(this).closest('li').addClass('active-gl');
         }else{
