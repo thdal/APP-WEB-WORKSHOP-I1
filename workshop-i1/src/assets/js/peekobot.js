@@ -122,7 +122,7 @@ const bot = function() {
     container.addEventListener('click', handleChoice);
 
     restartButton = document.createElement('button');
-    restartButton.innerText = "Restart";
+    restartButton.innerText = "Recommencer";
     restartButton.classList.add('restart');
     restartButton.addEventListener('click', handleRestart);
 

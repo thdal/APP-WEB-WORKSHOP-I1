@@ -43,12 +43,12 @@ nav .navbar-nav li .nav-admin-link-gl{
 }
 
 .nav-item{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
   border-right: 1px solid rgb(255, 255, 255, 24%);
   font-family: "Montserrat",sans-serif;
   align-items: center;
-  padding: 1em;
+  padding: 0.7em;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
