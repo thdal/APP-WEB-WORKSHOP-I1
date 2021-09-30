@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
 
 .bg-navbar-gl{
-  background-color: #2e86de !important;
+  background-color: #457bf5 !important;
 }
 nav .navbar-nav li .nav-link-gl{
   color: white !important;
@@ -38,9 +38,15 @@ nav .navbar-nav li .nav-admin-link-gl{
   text-align: center;
 }
 
+.nav-item:first-of-type{
+  border-left: 1px solid white;
+}
+
 .nav-item{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  border-right: 1px solid white;
+  
 }
 .navbar{
   padding-top: 0rem;
