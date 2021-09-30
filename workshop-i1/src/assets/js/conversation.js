@@ -150,6 +150,7 @@ const chat = {
   },
   8: {
     text: 'Voici les différents types d’attaques que je peux vous proposer',
+    describe: 'Qu’est ce qui t’interesse ?',
     mood: 'green',
     options: [{
         text: 'Piratage de compte en ligne.',
@@ -167,6 +168,7 @@ const chat = {
   },
   9: {
     text: 'Voici les différents types d’arnaques que je peux vous proposer',
+    describe: 'Qu’est ce qui t’interesse ?',
     options: [{
         text: 'Arnaque au chantage à l’ordinateur ou webcam prétendus piratés.',
         next: 17
@@ -179,6 +181,7 @@ const chat = {
   },
   10: {
     text: 'Voici quelques sujets traitant de la prévention.',
+    describe: 'Qu’est ce qui t’interesse ?',
     options: [{
         text: 'Les mesures préventives?',
         next: 19
@@ -191,6 +194,7 @@ const chat = {
   },
   12: {
     text: 'Que puis-je faire d’autre pour vous ?',
+    describe: 'Qu’est ce qui t’interesse ?',
     options: [{
         text: 'Cybersécurité',
         next: 2
@@ -208,6 +212,7 @@ const chat = {
   },
   14: {
     text: 'Voici un lien pour la sensibilisation du piratage de compte en ligne. ',
+    describe:'Mot de passe trop simple, message d’hameçonnage (phishing en anglais) ou utilisation d’un même mot de passe sur plusieurs sites dont l’un a été piraté. Tous ces éléments peuvent permettre à un cybercriminel de pénétrer votre compte afin d\'usurper votre identité.',
     options: [{
       text: 'j’y vais!',
       mood: 'green',
@@ -218,6 +223,7 @@ const chat = {
   15: {
     text: 'Voici un lien pour les Rançongiciel ',
     mood: 'green',
+    describe:'Un rançongiciel est un logiciel malveillant qui bloque l’accès à l’appareil ou à des fichiers en les chiffrant et qui réclame à la victime le paiement d’une rançon pour en obtenir de nouveau l’accès.',
     options: [{
       text: 'j’y vais!',
       url: 'https://www.cybermalveillance.gouv.fr/diagnostic/a31112bc-47ad-4e3b-b7cc-a40bd3242090',
@@ -228,15 +234,17 @@ const chat = {
   16: {
     text: 'Voici un lien pour l’hameçonnage',
     mood: 'green',
+    describe:'L’hameçonnage est une technique frauduleuse destinée à leurrer l’internaute pour l’inciter à communiquer des données personnelles (comptes d’accès, mots de passe…) et/ou bancaires en se faisant passer pour un tiers de confiance.',
     options: [{
       text: 'j’y vais!',
-      url: 'https://www.cybermalveillance.gouv.fr/diagnostic/a31112bc-47ad-4e3b-b7cc-a40bd3242090',
+      url: 'https://www.cybermalveillance.gouv.fr/diagnostic/68287182-b8b9-4ef6-91dc-efc27c46aaec',
       next: 12
     }]
   },
   17: {
     text: 'Voici un lien pour l’arnaque au chantage',
     mood: 'green',
+    describe:'L’arnaque au chantage à l’ordinateur ou à la webcam prétendus piratés prend généralement la forme d’un message reçu (mail) de la part d’un inconnu qui se présente comme un pirate informatique (« hacker »). Il veut soutirer de l’argent la victime en faisant du chantage',
     options: [{
       text: 'j’y vais!',
       url: 'https://www.cybermalveillance.gouv.fr/diagnostic/2236fedf-262f-483c-be6f-52f482d74088',
@@ -245,6 +253,7 @@ const chat = {
   },
   18: {
     text: 'Voici un lien pour l’escroquerie au Compte Personnel de Formation',
+    describe: 'L’arnaque au Compte Personnel de Formation (CPF) démarre généralement par un appel téléphonique d’une personne prétendant appartenir à la plateforme Moncompteformation.gouv.fr ou à un autre organisme.',
     mood: 'green',
     options: [{
       text: 'j’y vais!',
