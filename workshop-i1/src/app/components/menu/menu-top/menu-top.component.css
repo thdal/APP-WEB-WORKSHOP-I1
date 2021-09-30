@@ -39,15 +39,30 @@ nav .navbar-nav li .nav-admin-link-gl{
 }
 
 .nav-item:first-of-type{
-  border-left: 1px solid white;
+  border-left: 1px solid rgb(255, 255, 255, 24%);
 }
 
 .nav-item{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  border-right: 1px solid white;
-  
+  border-right: 1px solid rgb(255, 255, 255, 24%);
+  font-family: "Montserrat",sans-serif;
+  align-items: center;
+  padding: 1em;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.01rem;
+
+
 }
+
+.nav-item:hover{
+  background-color: #3c69d0;
+}
+
 .navbar{
   padding-top: 0rem;
   padding-bottom: 0rem;
