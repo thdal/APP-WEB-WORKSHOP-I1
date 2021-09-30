@@ -4,4 +4,9 @@ body{
   padding: 0;
   height: 100vh;
 }
-
+@font-face {
+  font-family: "Open Sans";
+  src: url("assets/fonts/VoiceActivatedCapsBB.woff2") format("woff2"),
+  url("assets/fonts/VoiceActivatedCapsBB.woff") format("woff");
+}
+  

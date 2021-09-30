@@ -1,45 +1,61 @@
 .footer {
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: blanchedalmond;
-    color: rgb(13, 4, 53);
-    text-align: center;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #457bf6;
+  color: rgb(13, 4, 53);
+  text-align: center;
+  padding: 0 25px;
+  height: 60px;
+  justify-content: space-between;
+  align-items: center;
 }
-.section_padding_100_70 {
-    padding-top: 200px;
-    padding-bottom: 70px;
+
+.footer p{
+  margin: 0;
+  padding: 0;
+  color: #FFF;
 }
 .social link h5 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 a, h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
+  font-weight: 400;
 }
 ul {
-    padding:0;
-    margin:0;
-    list-style-type:none;
-    }
+  padding:0;
+  margin:0;
+  list-style-type:none;
+}
 li {
-    margin-left:2px;
-    float:left; /*pour IE*/
-    }
+  margin-left:2px;
+  float:left; /*pour IE*/
+}
 ul li a {
-    display:block;                /* Transformation en block */
-    min-width: 150px;             /* Largeur minimale des liens */   
-            
-    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
-    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
-    text-align: center;           /* Centrage du texte */   
-    background-color: #1ABC9C;    /* Couleur d'arrière-plan */
-    color: #fff;                  /* Couleur du texte */
-    text-decoration: none;        /* Suppression du soulignement */
-    border: 1px solid #fff;       /* Ajout d'une bordure */
-    border-radius: 4px;           /* Arrondis des bordures */
-        }
-       ul li a:hover {
-        background-color:#D3D3D3;
-        border-color:#696969 #DCDCDC #DCDCDC #696969;
-        } 
+  display:block;                /* Transformation en block */
+  margin: -10px;               /* Marges externes (1 valeurs = 4 directions) */
+  /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+  text-align: center;           /* Centrage du texte */
+  text-decoration: none;        /* Suppression du soulignement */
+
+  border-radius: 1000px;           /* Arrondis des bordures */
+}
+
+.member-picture{
+  width: 50px;
+  height: 50px;
+  border-radius: 10000px;
+  transition: all .2s ease-in-out;
+  border: 1px solid #fff;
+}
+
+.member-picture:hover{
+  transform: scale(1.6) translateY(-20px);
+
+}
+.picture-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
