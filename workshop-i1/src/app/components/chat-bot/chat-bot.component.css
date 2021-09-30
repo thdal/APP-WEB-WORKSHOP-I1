@@ -239,7 +239,7 @@
   width: 30%;
   height: 30%;
   top: 25%;
-  left: 30%;
+  left: 35%;
 }
 
 .chatbot-mark-writing::after {
@@ -466,26 +466,4 @@
     transform: translateY(200%) scale(0);
     opacity: 0%;
   }
-}
-
-
-/*
-  Button
-*/
-
-button {
-  height: 30px;
-  width: 120px;
-}
-
-button.vert {
-  background: #49a078;
-}
-
-button.orange {
-  background: #ffb34e;
-}
-
-button.rouge {
-  background: #f25f5c;
 }
