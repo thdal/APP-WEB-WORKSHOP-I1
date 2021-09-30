@@ -54,3 +54,8 @@ ul li a {
   transform: scale(1.6) translateY(-20px);
 
 }
+.picture-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
