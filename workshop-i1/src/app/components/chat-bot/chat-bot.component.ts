@@ -17,7 +17,7 @@ export class ChatBotComponent implements OnInit {
   public beam: any;
   public mood: any;
   public observer: any;
-  public test:any;
+  public text:any;
 
   constructor() {}
 
@@ -33,6 +33,7 @@ export class ChatBotComponent implements OnInit {
       this.arms = document.querySelectorAll('.chatbot-arm');
       this.mark = document.querySelector('.chatbot-mark');
       this.beam = document.querySelector('#chatbot-beam-pulsar');
+      this.text = document.querySelector('#dynamic-description');
       // @ts-ignore
       if (event[0].target.className) {
         // @ts-ignore
@@ -46,6 +47,8 @@ export class ChatBotComponent implements OnInit {
             });
             this.mark.className = 'chatbot-mark chatbot-mark-green';
             this.beam.className = 'chatbot-beam-green';
+            this.text.className = 'dynamic-box dynamic-box-green';
+
             break;
 
             case 'orange':
@@ -57,6 +60,7 @@ export class ChatBotComponent implements OnInit {
             });
             this.mark.className = 'chatbot-mark chatbot-mark-orange';
             this.beam.className = 'chatbot-beam-orange';
+            this.text.className = 'dynamic-box dynamic-box-orange';
             break;
 
             case 'red':
@@ -68,6 +72,7 @@ export class ChatBotComponent implements OnInit {
             });
             this.mark.className = 'chatbot-mark chatbot-mark-red';
             this.beam.className = 'chatbot-beam-red';
+            this.text.className = 'dynamic-box dynamic-box-red';
             break;
 
             case 'hello':
@@ -79,6 +84,7 @@ export class ChatBotComponent implements OnInit {
             });
             this.mark.className = 'chatbot-mark chatbot-mark-green';
             this.beam.className = 'chatbot-beam-green';
+            this.text.className = 'dynamic-box dynamic-box-green';
             break;
 
             case 'writing':

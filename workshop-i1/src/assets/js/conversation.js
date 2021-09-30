@@ -54,7 +54,7 @@ const chat = {
     mood: 'hello',
     describe: 'Bienvenue sur Botty, vous retrouverez toutes les informations nécessaires afin de vous mettre à jour sur la cybersécurité. N’hésitez pas à me solliciter si vous avez besoin d’aide.',
     options: [{
-        text: 'j’ai une question sur la cybersécurité.',
+        text: 'J’ai une question sur la cybersécurité.',
         next: 2
 
       },
@@ -68,7 +68,7 @@ const chat = {
     text: 'Quels sujets vous interessent?',
     mood: 'green',
     options: [{
-        text: 'les types d’attaques.',
+        text: 'Les types d’attaques.',
         next: 4
       },
       {
